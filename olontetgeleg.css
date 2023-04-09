@@ -4,7 +4,6 @@ body{
     border: 1px none;
     display: grid;
     grid-template-columns: 15% 70% 15%;
-
 }
 li{
     list-style: none;
