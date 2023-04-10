@@ -8,10 +8,12 @@ body{
 li{
     list-style: none;
 }
+.navbar ul li img{
+    width: 50%;
+}
 .navbar ul{
     display: flex;
     flex-direction: row;
-    
 }
 .navbar ul li a{
     text-decoration: none;
@@ -25,8 +27,7 @@ header{
     background-color: var(--white);
     box-shadow: 0px 8px 4px #00000040;
     height: 100px;
-
-top: 117px;
+    top: 117px;
     grid-column-start: 2;
     grid-column-end: 3;
 
@@ -44,27 +45,30 @@ article.programs{
     margin: 5% 1.5% 5% 1.5%;
     height: 280px;
     opacity: 0.8;
-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
-background: #FFFFFF;
-border-radius: 10px;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    border-radius: 10px;
 
 }
-article.sort-category{
+section.sort-category ul{
     display: flex;
     flex-direction: row;
-
+    padding: 0%;
 }
 .sort-category section{
     padding: 0% 3% 3% 5%;
     background: #FFFFFF;
 }
-.sort-category section p{
+.sort-category ul li{
     border: 1px solid #475970;
-    border-radius: 3px;
-    padding: 5%;
-   
+    border-radius: 8px;
+    padding: 1%;
     width: 100%;
-
+    margin: 1%;
+    text-align: center;
+}
+.sort-category ul{
+    
 }
 .arrow{
     position: relative;
@@ -80,8 +84,10 @@ article.sort-category{
     margin-left: 1.0em;
 }
 h2.name-of-scho{
-    background: #B0CDE6;
+    background-color: #B0CDE6;
+    margin: 0%;
 }
+
 button.submit{
     background: #1E56A0;
     padding: 2% 8% 2% 8%;
@@ -94,7 +100,7 @@ text-align: justify;
 letter-spacing: -0.02em;
 text-transform: capitalize;
 margin: 0% 0% 0% 65%;
-
+border-width: 0;
 color: #FFFFFF;
 }
 p.explain-of-scho{
@@ -104,7 +110,7 @@ font-weight: 300;
 font-size: 16px;
 line-height: 19px;
 text-align: justify;
-
+margin: 5%;
 color: #000000;
 }
 
@@ -128,5 +134,7 @@ footer{
     height: 70px;
     left: 1px;
     top: 1px;
-
+}
+b {
+    margin: 5%;
 }
