@@ -31,10 +31,11 @@ article.context{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
     line-height: 29px;
     text-align: justify;
     color: #000000;
+    padding: 0% 5% 0% 5%;
+    font-size: 24px;
 }
 footer{
     grid-column-start: 1;
@@ -43,7 +44,7 @@ footer{
     height: 492px;
 }
 section img.big-image{
-    width: 40%;
+    width: 50%;
 }
 section img.little-image{
     width: 15%;
@@ -54,16 +55,14 @@ section.side{
     flex-direction: column;
     margin: 0% 0% 0% 5%;
 }
-section.side h5{
-    
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-text-transform: capitalize;
-
-color: #000000;
+section.side h5{  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #000000;
 }
 li{
     list-style: none;
@@ -71,32 +70,26 @@ li{
 div.clock{
     display: flex;
     flex-direction: row;
-
 }
 .context h2{
     font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 23px;
-line-height: 27px;
-letter-spacing: -0.02em;
-
-
-color: #00669A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #00669A;
 }
 .context p{
-    padding: 0% 0% 0% 5%;
-    
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: justify;
-
-color: #000000;
-
-mix-blend-mode: normal;
+    padding: 0% 0% 0% 5%;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    color: #000000;
+    mix-blend-mode: normal;
 }
 .context p ul li{
     padding: 0% 0% 0% 5%;
@@ -107,32 +100,25 @@ footer ul.corner{
 }
 footer ul.corner li{
     padding: 5% 10%;
-    
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-display: flex;
-align-items: flex-end;
-letter-spacing: -0.02em;
-text-transform: capitalize;
-
-color: #FFFFFF;
-
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 footer ul.corner li h1{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 17px;
-line-height: 21px;
-/* identical to box height */
-
-display: flex;
-align-items: flex-end;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
