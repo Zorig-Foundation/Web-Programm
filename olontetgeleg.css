@@ -42,7 +42,7 @@ article.programs{
 }
 .brief-scholarship{
     width: 47%;
-    margin: 5% 1.5% 5% 1.5%;
+    margin: 5% 1.5% 0% 1.5%;
     height: 280px;
     opacity: 0.8;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
@@ -62,14 +62,12 @@ section.sort-category ul{
 .sort-category ul li{
     border: 1px solid #475970;
     border-radius: 8px;
-    padding: 1%;
     width: 100%;
     margin: 1%;
     text-align: center;
+    font-size: 16px;
 }
-.sort-category ul{
-    
-}
+
 .arrow{
     position: relative;
     top: -5px;
@@ -83,7 +81,7 @@ section.sort-category ul{
     margin-right: 0.5em;
     margin-left: 1.0em;
 }
-h2.name-of-scho{
+div.name-of-scho{
     background-color: #B0CDE6;
     margin: 0%;
 }
@@ -122,6 +120,8 @@ font-size: 16px;
 line-height: 19px;
 text-align: justify;
 text-transform: uppercase;
+padding: 5% 5% 0% 5%;
+margin: 0%;
 
 color: #000000;
 }
@@ -137,4 +137,32 @@ footer{
 }
 b {
     margin: 5%;
+}
+footer ul.corner{
+    display: flex;
+    flex-direction: row;
+}
+footer ul.corner li{
+    padding: 5% 10%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+footer ul.corner li h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
