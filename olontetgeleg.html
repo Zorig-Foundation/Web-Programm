@@ -7,27 +7,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tetgeleg</title>
     <script src="Olonscript.js"></script>
+    
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Нүүр</a></li>
-                <li><a href="#">Тэтгэлэг</a></li>
-                <li><a href="#">Хөтөлбөр</a></li>
-                <li><a href="#">Шалгах</a></li>
-                <li><a href="#">Байгууллагын хамтрал</a></li>
-                <li><a href="#">Бидний тухай</a></li>
-                <li><img src="picture/logo.png" alt="Zoriglogo" /></li>
-            </ul>
+        <nav>
+          <ul class="links">
+            <li><a class="menuBottom" href="#">Нүүр</a></li>
+            <li><a class="menuBottom" href="#">Тэтгэлэг</a></li>
+            <li><a class="menuBottom" href="#">Хөтөлбөр</a></li>
+            <li><a class="menuBottom" href="#">Шалгах</a></li>
+            <li><a class="menuBottom" href="#">Байгууллагын хамтрал</a></li>
+            <li><a class="menuBottom" href="#">Бидний тухай</a></li>
+            <li>
+              <a class="logo" href="about.html">
+                <img
+                  src="../picture/Logo.PNG"
+                  alt="Zorig-san logo"
+                  style="width: 3rem; margin-top: -1rem"
+                />
+              </a>
+            </li>
+          </ul>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </nav>
-    </header>
+        <div class="dropdown_menu open">
+          <li><a href="#">Нүүр</a></li>
+          <li><a href="#">Тэтгэлэг</a></li>
+          <li><a href="#">Хөтөлбөр</a></li>
+          <li><a href="#">Шалгах</a></li>
+          <li><a href="#">Байгууллагын хамтрал</a></li>
+          <li><a href="#">Бидний тухай</a></li>
+        </div>
+      </header>
     <section class="sort-category">
         <ul>
-            <li>Хугацаагаар<i class="arrow"></i></li>
-            <li>Чиглэлээр<i class="arrow"></i></li>
-            <li>Бусад<i class="arrow"></i></li>
-            <li><i style="font-size:24px" class="fa">&#xf002;</i><input type="search" placeholder="Хайлт"></li>
+            <select id="bytime">
+                <option value="none" selected disabled hidden>Хугацаагаар</option>
+                <option value="active" class="active">Идэвхтэй</option>
+                <option value="expired" class="expired">Дууссан</option>
+            </select>
+            <select id="byroot">
+                <option value="none" selected disabled hidden>Чиглэлээр</option>
+                <option value="bach" class="bach">Баклавар</option>
+                <option value="mas" class="mas">Магистар</option>
+                <option value="doc" class="doc">Доктор</option>
+            </select>
+            <select id="byother">
+                <option value="none" selected disabled hidden>Хэмжээгээр</option>
+                <option value="low" class="low">0.5-2сая</option>
+                <option value="mid" class="mid">2-5сая</option>
+                <option value="high" class="high">Бүтэн</option>
+            </select>
+
+            <input type="search" placeholder="Хайлт">
+            <button class="search"></button>
         </ul>
     </section>
     <article class="programs"></article>
