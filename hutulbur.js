@@ -45,7 +45,7 @@ class ProgramList extends HTMLElement {
             `;
           });
           
-          // containerluugaa itemaa hiine
+          // containerluugaa itemaa hiine shuu
           itemsContainer.innerHTML = itemsHTML;
           itemsContainer.addEventListener('click', event => {
             // darsan itemaa olno
