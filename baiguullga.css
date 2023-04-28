@@ -159,6 +159,10 @@
 
 .garchig {
     color: #1E56A0;
+    padding-left: 40px;
+}
+.jijgarchig {
+    padding-left: 40px;
 }
 .left {
     text-align: left;
@@ -187,4 +191,27 @@
     justify-content:space-around;
     align-content: center;
     padding: 40px;
+}
+h3 {
+  margin-top: 25px;
+}
+.A {
+    display: flex;
+    padding: 40px;
+}
+.B {
+    display: flex;
+    padding: 40px;
+}
+.five { 
+  padding: 40px;
+}
+.seven {
+  padding: 40px;
+}
+.six {
+  padding: 40px;
+}
+.four { 
+  padding: 40px;
 }
