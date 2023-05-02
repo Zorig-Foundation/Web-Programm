@@ -159,6 +159,7 @@
 
 .garchig {
     color: #1E56A0;
+    padding-top: 50px;
     padding-left: 40px;
 }
 .jijgarchig {
@@ -193,7 +194,7 @@
     padding: 40px;
 }
 h3 {
-  margin-top: 25px;
+    
 }
 .A {
     display: flex;
@@ -204,14 +205,24 @@ h3 {
     padding: 40px;
 }
 .five { 
-  padding: 40px;
+ 
+  padding-left: 250px;
+  padding-right: 40px;
 }
 .seven {
-  padding: 40px;
+  padding-left: 250px;
+  padding-right: 40;
 }
 .six {
-  padding: 40px;
+  padding-left: 40px;
 }
 .four { 
-  padding: 40px;
+  padding-left: 40px;
+  border-bottom: 2px;
+}
+.four::after { 
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 20%;
 }
