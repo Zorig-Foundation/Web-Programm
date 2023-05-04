@@ -159,6 +159,11 @@
 
 .garchig {
     color: #1E56A0;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.jijgarchig {
+    padding-left: 40px;
 }
 .left {
     text-align: left;
@@ -166,6 +171,8 @@
 
 .center {
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .right { 
     text-align: right;
@@ -179,4 +186,43 @@
     background-color: #D9D9D9;
     color:black;
     text-align: center;
+}
+.tuzuulelt {
+    display: flex ;
+    justify-content:space-around;
+    align-content: center;
+    padding: 40px;
+}
+h3 {
+    
+}
+.A {
+    display: flex;
+    padding: 40px;
+}
+.B {
+    display: flex;
+    padding: 40px;
+}
+.five { 
+ 
+  padding-left: 250px;
+  padding-right: 40px;
+}
+.seven {
+  padding-left: 250px;
+  padding-right: 40;
+}
+.six {
+  padding-left: 40px;
+}
+.four { 
+  padding-left: 40px;
+  border-bottom: 2px;
+}
+.four::after { 
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 20%;
 }
