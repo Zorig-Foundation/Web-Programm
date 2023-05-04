@@ -1,5 +1,6 @@
 :root {
   --h3-color: #00669a;
+  --color--black: #000000;
   --Ded-Size: "Noto Sans", sans-serif;
   --H2-font: "Ubuntu", sans-serif;
 }
@@ -158,6 +159,7 @@ h2 {
 }
 .medium {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 7% 7% 7% 7%;
   gap: 10%;
@@ -165,6 +167,18 @@ h2 {
 .scholarshipCount {
   font-size: 3rem;
   font-family: "Pass through";
+}
+.line {
+  position: relative;
+}
+.line::before {
+  content: "";
+  position: absolute;
+  height: 0.5px;
+  background-color: var(--color--black);
+  bottom: -0.5rem;
+  width: 100%;
+  left: 0;
 }
 /*Responsive Design*/
 @media (max-width: 1080px) {
@@ -192,12 +206,18 @@ h2 {
     margin-left: 1rem;
   }
 }
-@media (max-width: 414) {
+@media (max-width: 414px) {
   .dropdown_menu {
     left: 2rem;
     width: unset;
   }
   .dropdown_menu.open {
-    height: 280px;
+    width: 400px;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 3rem;
   }
 }
